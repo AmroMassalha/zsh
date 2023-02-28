@@ -1,3 +1,385 @@
+echo -e "\e[3mitalic\e[23m"
+infocmp $TERM | grep sitm\
+        sgr0=\E(B\E[m, sitm=\E[3m, smacs=\E(0, smam=\E[?7h,\
+
+infocmp $TERM | grep sitmsgr0=\E(B\E[m, sitm=\E[3m, smacs=\E(0, smam=\E[?7h,\
+\
+
+cd tmux
+ls
+v screen-256color.terminfo
+tic screen-256color.terminfo
+cd
+ls
+ls | grep .vimrc
+vi .vimrc
+cd .config
+ls
+v
+env TERM=screen-256color tmux
+clear
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+zsh
+echo $JAVA_HOME
+z
+v
+v
+v
+v
+v nvim/init.lua
+v nvim/init.lua
+v nvim/init.lua
+v nvim/init.lua
+v nvim/init.lua
+v nvim/init.lua
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+clear
+# required\
+mv ~/.config/nvim ~/.config/nvim.bak\
+\
+# optional but recommended\
+mv ~/.local/share/nvim ~/.local/share/nvim.bak\
+mv ~/.local/state/nvim ~/.local/state/nvim.bak\
+mv ~/.cache/nvim ~/.cache/nvim.bak
+mv ~/.config/nvim ~/.config/nvim.bak\
+
+clear
+ls
+ll
+mv ~/.local/share/nvim ~/.local/share/nvim.bak\
+
+mv ~/.local/state/nvim ~/.local/state/nvim.bak\
+
+mv ~/.cache/nvim ~/.cache/nvim.bak
+git clone https://github.com/LazyVim/starter ~/.config/nvim\
+\
+
+rm -rf ~/.config/nvim/.git
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+cd nvim
+nvim init.lua
+ls
+ll
+cd lua
+ls
+cd config
+ls
+mv lazy.lua init.lua
+ls
+v
+mv init.lua lazy.lua
+ls
+cd ..
+ls
+cd ..
+ls
+v init.lua
+v init.lua
+v init.lua
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+pwd
+ls
+zsh
+clear
+pwd
+cd ..
+cd ..
+ls
+cd nvim
+ls
+rm -rf .git
+ls
+cd ..
+v
+v
+v
+v
+v
+v
+cd
+cd repos/mmservices
+v
+exit
+v
+v
+echo -e "\e[3mItalic"\
+
+infocmp
+clear
+v
+v
+v
+v
+v
+v
+clear
+v
+v
+v
+v
+v
+clear
+cd repos/minutecloud-terraform
+v
+v
+echo -e "\e[3mItalic"\
+
+zsh
+clear
+cd repos/MMCI
+cd repos/MMCI
+clear
+clear
+pwd
+cd terraform/k8s-automation
+ls
+clear
+terraform apply -target module.eks
+../../scripts/setup-mfa-token.sh
+terraform apply -target module.eks
+terraform apply 
+terraform apply 
+terraform apply 
+helm repo add dysnix https://dysnix.github.io/charts\
+
+kubens
+kubectl get pods
+helm install my-allure-ee dysnix/allure-ee --version 1.9.9\
+
+kubectl get pods
+kubectl get pods
+k9s
+helm unistall my-allure-ee
+helm uninstall my-allure-ee
+kubectl get pods
+ls
+kubens
+ls
+clear
+kubectl apply assets/k8s/allure/allure-ui-configmap.yaml
+kubectl apply -f assets/k8s/allure/allure-ui-configmap.yaml
+kubectl apply -f assets/k8s/allure/allure-deployment.yaml
+kubectl apply -f assets/k8s/allure/allure-service.yaml
+kubectl apply -f assets/k8s/allure/allure-configmap.yaml
+k9s
+kubectl apply -f assets/k8s/allure/allure-deployment.yaml
+k9s
+kubectl apply -f assets/k8s/allure/allure-ui-configmap.yaml
+k9s
+pws
+pwd
+bash assets/jenkins/install.sh
+bash ../../scripts/setup-mfa-token.sh
+bash assets/jenkins/install.sh
+clear
+ls
+terraform apply 
+bash ../../scripts/setup-mfa-token.sh
+source ../../scripts/setup-mfa-token.sh
+git pull origin main
+ls
+bash assets/jenkins/install.sh
+ls ../../scripts
+ls
+bash ../../scripts/deploy-playground-jenkins-copy.sh
+pwd
+ls
+cat ./assets/jenkins/helm/values.yaml
+cd assets/jenkins
+ls
+cd
+cd repos/MMCI
+cd scripts
+ls
+v deploy-playground-jenkins-copy.sh
+bash deploy-playground-jenkins-copy.sh
+v deploy-playground-jenkins-copy.sh
+helm repo list
+helm repo add jenkins https://charts.jenkins.io
+bash deploy-playground-jenkins-copy.sh
+k9s
+kubectl exec --namespace devops-tools-temp -it svc/jenkins -c jenkins -- /bin/cat /run/secrets/additional/chart-admin-password && echo\
+
+k9s
+bash deploy-playground-jenkins-copy.sh
+k9s
+sudo pkill bluetooth
+k9s
+k9s
+kubectl get ns
+kubectl get ns
+source ../../scripts/setup-mfa-token.sh
+source setup-mfa-token.sh
+source setup-mfa-token.sh
+kubectl get ns
+k9s
+k9s
+source setup-mfa-token.sh
+source setup-mfa-token.sh
+k9s
+kubens
+kubectl logs jenkins-0
+kubectl logs jenkins-0
+kubectl logs jenkins-0
+k9s
+k9s
+source setup-mfa-token.sh
+source setup-mfa-token.sh
+k9s
+ls
+bash spin-up-template.sh
+./spin-up-template.sh
+source setup-mfa-token.sh
+brew install --cask raycast
+brew 
+brew update
+brew update raycast
+brew install --cask raycast
+brew reinstall --cask raycast\
+
+k9s
+kubens
+kubectl logs jenkins-0
+ls
+cd ..
+ls
+cd terraform/k8s-automation
+ls
+cd assets/jenkins
+ls
+source install-playground.sh
+source ../../scripts/setup-mfa-token.sh
+source ../../../scripts/setup-mfa-token.sh
+source ../../../../scripts/setup-mfa-token.sh
+./install-playground.sh
+kubens 
+kubectl logs jenkins-0
+kubectl logs jenkins-0
+kubectl logs jenkins-0
+k9s
+kubectl logs jenkins-0
+./install-playground.sh
+k9s
+kubectl logs jenkins-0
+kubectl logs jenkins-0
+./install-playground.sh
+kubectl logs jenkins-0
+clear
+history
+source ../../../../scripts/setup-mfa-token.sh
+source ../../../../scripts/setup-mfa-token.sh
 ./install-playground.sh
 kubectl logs jenkins-0
 ./install-playground.sh
@@ -651,379 +1033,3 @@ fpp
 clear
 clear
 ssh -i ~/.ssh/jenkins-auto.pem  ubuntu@10.0.11.9 
-v
-v
-v
-v
-clear
-pwd
-tmux attach -t home
-tmux session list
-tmux new -s home
-cd .config
-cd
-tmux new -s home
-cd repos/mmservices
-tmux new -s mmservices
-cd ..
-cd MMCI
-tmux new -s MMCI
-cd cd ..
-cd mm
-cd ..
-cd mmservices
-tmux new -s mmservices
-tmux attach -t home
-v
-v
-v
-v
-v
-v
-v
-v
-brew isntall allure
-brew install allure
-allure
-pre-commit uninstall
-k9s
-k9s
-pytest --alluredir=allure-results -rXxs -vvv -n 150 tests/ui_tests/vplayer --reruns-delay 10  --env=ci --junit-xml=reports/vplayer.xml --reruns 3 -m 'not network_conditions and not mobile'
-pytest --alluredir=allure-results -rXxs -vvv -n 1 tests/ui_tests/vplayer --reruns-delay 10  --env=ci --junit-xml=reports/vplayer.xml --reruns 3 -m 'not network_conditions and not mobile'
-pytest --alluredir=allure-results -rXxs -vvv -n 1 tests/ui_tests/vplayer/tests.branding_customization.test_branding_customization --reruns-delay 1  --env=ci --junit-xml=reports/vplayer.xml --reruns 0 -m 'not network_conditions and not mobile'
-pytest --alluredir=allure-results -rXxs -vvv -n 1 tests/ui_tests/vplayer/tests/branding_customization.test_branding_customization --reruns-delay 1  --env=ci --junit-xml=reports/vplayer.xml --reruns 0 -m 'not network_conditions and not mobile'
-pytest --alluredir=allure-results -rXxs -vvv -n 1 tests/ui_tests/vplayer --reruns-delay 1  --env=ci --junit-xml=reports/vplayer.xml --reruns 0 -m 'not network_conditions and not mobile'
-pytest --alluredir=allure-results -rXxs -vvv -n 1 tests/ui_tests/vplayer --reruns-delay 1  --env=ci --junit-xml=reports/vplayer.xml --reruns 0 -m 'not network_conditions and not mobile'
-pytest --alluredir=allure-results -rXxs -vvv -n 1 tests/ui_tests/vplayer --reruns-delay 1  --env=ci --junit-xml=reports/vplayer.xml --reruns 0 -m 'not network_conditions and not mobile'
-pytest --alluredir=allure-results -rXxs -vvv -n 1 tests/ui_tests/vplayer --reruns-delay 1  --env=ci --junit-xml=reports/vplayer.xml --reruns 0 -m 'not network_conditions and not mobile'
-export NAMESPACE=amro
-pytest --alluredir=allure-results -rXxs -vvv -n 1 tests/ui_tests/vplayer --reruns-delay 1  --env=ci --junit-xml=reports/vplayer.xml --reruns 0 -m 'not network_conditions and not mobile'
-pytest --alluredir=allure-results -rXxs -vvv -n 1 tests/ui_tests/vplayer --reruns-delay 1  --junit-xml=reports/vplayer.xml --reruns 0 -m 'not network_conditions and not mobile'
-clear
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-python tests/helpers/amro/test_new_grid.py
-clear
-k9s
-export AWS_ACCESS_KEY_ID="ASIAR4LDPYZGDBXAE7HV"\
-export AWS_SECRET_ACCESS_KEY="0QRxpFs+zjKP53WNPoL6JgpsaBt0p4bwiOE0a0cX"\
-export AWS_SESSION_TOKEN="IQoJb3JpZ2luX2VjEKb//////////wEaCXVzLWVhc3QtMSJHMEUCIQDadHmTJYF+UiBd2BR2GTxNmwXKPE2umJ8tRybcac28mgIgIzPHBzUIHwwyepWmLVJZaKq2o8Pu+THXjrMRB8clN5QqhwMITxAAGgwxMjk1OTQ1NDE2NDQiDPS6Rxs2DxwxR4XF5irkAgOUszh2UUKEboMDW8Yhur/finsE/FiH45I3OGb/oibrXCtEruJeYJDwj94n8PLpko0kQsD3UqZaC+V9pDd21ydsvEoD/W/uDVlRJ63U7+nvUeWs634vwS8FRuN029VUgvrG/t1ijNIyOPqQrsdmAvjMk+2AAYNt6f3vjUuBAH6MyONQycXYd/q0wT+B7vE5o7fDYWwkQrl0/yRWuCldccUyH3/Sg/a+dUOdLyFFmAXAuriKdt27wcwIQghILWSGfs5KuUBmBSDnnqJIu5U45vtdGYnqqPuEM+zPwxZZcMFbojSJvUx2SozA757qEf3GxHjuKNX1E86ZQTUxc/FzHYwVIreGlJdBLcFBqinndo5dtgWjHLrKQunIqjdf1N4KTZWbP3+8ZRQ0CvCGuCdop43A+aDGWdCQBIzapSznYF3JMnWgdb8vlf2Q8D53qHwlds2lxH5AGtcquiOnnMn2PMejMwaTMN6d758GOqYBIFkL3VQEl5Y/fLFfD1eh1cTXs/0RUVIZnTxcVlM8j6CcXkdDoyIrTDoE45GmQw48Lwxgan3yMdEoBkkr0TWVbC/sn7m6UfuJAsh/CR7aDmz4bRKvioPvZ7Syx1PV2LgOE89vUdAXPLr1E6tNhFa5E7mEdIsauTnoI91zoCwq49K1ILqHHRZ8ie0onOVp4g+zib/64nCxEmbm6VbORgjCPp7gTwlh9g=="
-k9s
-git commit --amend --no-edit\
-git push -f origin your_branch
-git commit --amend --no-edit\
-git push -f origin Auto/pipeline_timeout
-pip install pre-commit-hooks==3.4.0
-pip install --upgrade pip
-pip install pre-commit-hooks==3.4.0
-pip install pre-commit==2.10.1
-pre-commit install
-cd repos/mmservices
-ls
-pre-commit install
-clear
-cd
-v
-cd .config/zsh
-ls
-v
-cd .config/nvim
-v
-v
-v
-v
-v lua/user/keymaps.lua
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-pwd
-k9s
-ls
-cd terraform/k8s-automation/
-ls
-cd assets
-ls
-cd ..
-cd ..
-cd ..
-cd terraform/k8s-automation
-ll
-cd assets/sele-grid
-ls
-kubectl apply -f values.yaml
-helm upgrade selenium-grid docker-selenium/selenium-grid -f values.yaml -n selenium-grid 
-helm upgrade selenium-grid docker-selenium/selenium-grid -f values.yaml -n selenium-grid 
-I want you to act as a linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. do not write explanations. do not type commands unless I instruct you to do so. when i need to tell you something in english, i will do so by putting text inside curly brackets {like this}. my first command is pwd
-clear
-helm upgrade selenium-grid docker-selenium/selenium-grid -f values.yaml -n selenium-grid 
-code .
-helm upgrade selenium-grid docker-selenium/selenium-grid -f values.yaml -n selenium-grid 
-helm upgrade selenium-grid docker-selenium/selenium-grid -f values.yaml -n selenium-grid 
-k9s
-brew install dlv
-  brew install gotests\
-
-  brew install golines
-  brew install --cask golines
-  brew install --cask goldendict
-  brew install golines
-  brew install golines
-  brew install iferr
-  brew install infer
-  brew install gomvp
-  brew install --cask geomap\
-
-  brew install gomvp
-  brew install gopls
-  brew install dlv
-  brew install richgo
-  brew install go-enum
-brew install --cask go-agent
-  brew install go-enum
-  brew install go-enum
-  brew install impl
-clear
-helm upgrade selenium-grid docker-selenium/selenium-grid -f values.yaml -n selenium-grid 
-helm upgrade selenium-grid docker-selenium/selenium-grid -f values.yaml -n selenium-grid
-k9s
-k9s
-k9s
-ls
-ll
-clear
-docker ps
-kubectl get pods
-kubens
-kubectl get pods
-kubens
-clear
-cd .config
-v
-tmux attach -t home
-pkill -f tmux\
-
-k9s
-export AWS_ACCESS_KEY_ID="ASIAR4LDPYZGM6446A2J"\
-export AWS_SECRET_ACCESS_KEY="5vLQGamblhcXG9Wur255/X/exY5WBk33Ha1X83Qh"\
-export AWS_SESSION_TOKEN="IQoJb3JpZ2luX2VjELH//////////wEaCXVzLWVhc3QtMSJHMEUCIQDBp1Ac1p5MTJ0SuAUVJmP79lB/62kJ0q2q39zelfr96gIgWVCDp/2uOx4yYi/Q8lUfb6jX8jUJp9ih/BYOoYbTVd8qhwMIWhAAGgwxMjk1OTQ1NDE2NDQiDLXX8U87FMEfbfN/lirkAr482v3HSGNcPzC5USVJVcx+ADRhG3jHBB0uIHoPFMsM2PDll5tJINey7Zuyix39guyg5UyNEN4f5daXMkNWDCuERUzfC7RMnsKwirfYRhiYCzQ5/9g1lOyeSImaZJPTrqxOXL802npz8mftDKuIWKb8vEYy5RnKOlg9XAU+csZ/4+2DyCuUt3pdI34Xem6mdveivnXDSSr+zL7b2nKz2LdO0jyZSa1D/hqCGNnH1Idy716Ti9VGy4kh4KgQ+EDUOD/ibXPn8TMQAwaXPbWG5eOVLFUFE1AKxWnyW+IMhgsv8gtD8gisrQr7as1Nu8z4NJEd2IGLDqYM4sC3bA+XtnhvmXrUQH4iutbIUpsRB3I2ETMSUeN4156twrrNG5VS4ntBgCWJTrUnK5pNL0wwq0Yp43IGrnrglZpi+ULiWONAm4yi6GLJhQcMY/72oXGZM3OhzydyLVWzrBkrLrp7FBX6BA8EMLfZ8Z8GOqYB9rR2AVUSdHQp0f8gtlh4mB8OZ7RzYOEZBXJHOct1IkYHBM5m8euAu6nrZRq34wSqUXS1O/40FlkHGSnBgCQfaZ1R02kuRLx58FqAvw3AZQ/ieZIYZOyCV3OO7KOFDzMRIAUC9c+sBfy/j6U7Pp0fVuLVVa/IS6Rp4x9VDTX0H0Oo4z3Wna7NwmUmc8gOWIcq6WC22JyKVwBLVLUFo+w/8mLG6aUOxQ=="
-k9s
-cd repos/mmservices
-v
-ls -aR
-clear
-v
-clear
-cd repos/mmservices
-v
-v
-docker compose -f docker-compose-amd64.yml up -d --build database
-cat docker-compose-amd64.yml
-docker compose -f docker-compose-amd64.yml up -d --build database-amd64
-docker compose up -d --build ms-player-service-voltax-hq
-docker compose up -d --build vms-player-service-voltax-hq
-v
-v
-exit
-exit
-exit
-exit
-v
-v
-v
-ll
-rm -rf *
-ll
-rm -rf * .*
-ll
-cd ..
-rm -rf nvim
-mkdir nvim
-ls
-cd nvim
-ls
-clear
-mkdir test
-cd test
-git clone https://github.com/AmroMassalha/dev-environment-files.git
-ls
-cd dev-environment-files
-ls
-cd .config
-ls
-cp nvim ../../..
-mv nvim ../../..
-cd ..
-cd ..
-cd ..
-ls
-rm -rf test
-mv nvim/* .
-ls
-rm -rf nvim
-	ll
-touch .gitignore
-v .gitignore
-v .gitignore
-ls
-touch .stylua.toml
-v .stylua.toml
-v .stylua.toml
-v .stylua.toml
-cd repos/mmservices
-ls
-clear
-v
-v
-v
-curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
-cd .config/tmux
-ls
-cd
-ls
-ls | grep tmux
-cd .config/tmux
-ll
-rm -rf .tmux.conf.local
-v .tmux.conf
-tmux attach -t home
-tmux new -s tmux
-v .tmux.conf
-tmux attach -t home
-tmux new -s tmux
-pkill -f tmux\
-
-tmux new -s tmux
-pkill -f tmux\
-
-cd
-ll | greo tmux
-ll | grep tmux
-cd tmux-config
-ls
-cd tmux
-ls
-v
-ls
-cd ..
-cd ..
-rm -rf tmux-config
-ls
-clear
-ll | grep tmux
-rm -rf .tmux.conf.local .tmux.conf.bak
-cat .tmux.conf
-clear
-tmux new -s tmux
-cd .config/tmux
-v
-pkill -f tmux\
-
-tmux new -s tmux
-clear
-tmux source-file Ëƒ¼/.tmux.conf
-cd
-tmux source-file .tmux.conf
-tmux new -s tmux
-tmux source-file .tmux.conf
-tmux attach -t tmux
-pkill -f tmux\
-
-cd .config/nvim
-tmux new -s nvim
-ls
-ll
-pwd
-cd
-cd .config/nvim
-ll
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-cd repos/mmservices
-v
-v
-cd
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-cd .config/nvim
-cd ..
-cd tmux
-ls
-cd ..
-rm -rf tmux
-cd
-ll | grep tmux
-rm -rf .tmux .tmux.conf
-ll | grep tmux
-cd .config/
-ls
-ll
-ll | grep tmux
-mkdir tmux
-cd tm
-cd tmux
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-ls
-ll
-git clone https://github.com/tmux-plugins/tpm ./tpm
-ll
-git clone https://github.com/tmux-plugins/tpm .tmux/plugins/tpm
-ls
-rm -rf tmp
-ls
-rm -rf tpm
-ls
-v 
-tmux ls
-tmux new -s nvim
-cd repos/mmservices
-v
-cd
-cd .config/nvim
-ls
-v
-v
-tmux new -s nvim
-cd
-cd repos/mmservices
-tmux new -s mmservices
-pkill -f tmux\
-
-tmux new -s mmservices
-cd
-tmux new -s home
-pkill -f tmux\
-
-tmux new -s home
-tmux new -s mmservices

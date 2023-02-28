@@ -5,3 +5,10 @@ alias tree="exa -a --color=always --icons --group-directories-first -T"
 alias lz="lazygit"
 alias v="nvim"
 alias gt="gotop"
+
+# TMUX Related Aliases alias
+TMUX_CONFIG="~/.config/tmux/tmux.conf"
+alias                                 \
+  tn="tmux -u -f $TMUX_CONFIG new"    \
+  ta="tmux -u -f $TMUX_CONFIG attach" \
+  tt="nvim $TMUX_CONFIG"
