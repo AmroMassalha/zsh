@@ -14,4 +14,7 @@ add exports
 add vim
 add conda
 
-source ~/repos/mmservices/venv/bin/activate
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+

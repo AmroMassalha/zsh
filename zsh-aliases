@@ -12,3 +12,10 @@ alias                                 \
   tn="tmux -u -f $TMUX_CONFIG new"    \
   ta="tmux -u -f $TMUX_CONFIG attach" \
   tt="nvim $TMUX_CONFIG"
+
+#python venv
+VENV="/Users/amro/repos/mmservices/venv/"
+alias pyvenv="source $VENV/bin/activate"
+
+#lazygit
+alias gg="lazygit"
